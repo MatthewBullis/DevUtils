@@ -129,3 +129,17 @@ mbulliswsl@LAPTOP-E923ANH2:/mnt/c/Users/MatthewBullis/Git_Cheat_Sheet$ git commi
 mbulliswsl@LAPTOP-E923ANH2:/mnt/c/Users/MatthewBullis/Git_Cheat_Sheet$ git branch -M main
 mbulliswsl@LAPTOP-E923ANH2:/mnt/c/Users/MatthewBullis/Git_Cheat_Sheet$ git push -u origin main
 mbulliswsl@LAPTOP-E923ANH2:/mnt/c/Users/MatthewBullis/Git_Cheat_Sheet$ 
+
+mbulliswsl@LAPTOP-E923ANH2:/mnt/c/Users/MatthewBullis/Matts-Projects/Django_Tutorial$ git push -u origin main
+To https://github.com/MatthewBullis/Django_MySite.git
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/MatthewBullis/Django_MySite.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+###### git pull "remote" "branch" --rebase
+git pull origin main --rebase
+
+then retry
