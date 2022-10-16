@@ -116,12 +116,16 @@ $ git push --mirror https://github.com/USER/REPO.git
 
 git clone --bare https://github.com/MatthewBullis/DevUtils.git "/mnt/c/Users/MatthewBullis/DevUtils"
 
-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
-
-echo "# DevUtils" >> README.md
+echo "# DevUtils" >> Git_Cheat_Sheet.md
 git init
 git add README.md
 git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/MatthewBullis/DevUtils.git
 git push -u origin main
+
+mbulliswsl@LAPTOP-E923ANH2:/mnt/c/Users/MatthewBullis/Git_Cheat_Sheet$ git add --all
+mbulliswsl@LAPTOP-E923ANH2:/mnt/c/Users/MatthewBullis/Git_Cheat_Sheet$ git commit -m "add util scripts"
+mbulliswsl@LAPTOP-E923ANH2:/mnt/c/Users/MatthewBullis/Git_Cheat_Sheet$ git branch -M main
+mbulliswsl@LAPTOP-E923ANH2:/mnt/c/Users/MatthewBullis/Git_Cheat_Sheet$ git push -u origin main
+mbulliswsl@LAPTOP-E923ANH2:/mnt/c/Users/MatthewBullis/Git_Cheat_Sheet$ 
