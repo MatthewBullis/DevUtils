@@ -1,0 +1,28 @@
+{
+    "Prod": {
+        "idg_api": {
+            "idg_api_key": "Basic aWRnX3Byb2Rfb3BzX21idWxsaXM6b3BjMjQ2eXFqNHJka3dyY2VpeTNiMWVyazg2OGQ3M2FwMmNqMnNzNA=="
+            },
+        "idg_app": {
+            "idg_app_api_key": "Basic bWF0dGhldy5idWxsaXNAYXVyYS5jb206TGlhbTIwMjEkJA=="
+            },
+        "suite": {
+            "admin_userName": "matthew.bullis@aura.com",
+            "admin_pass": "Liam2021$$"
+            }
+
+        },
+    "Test": {
+        "idg_api": {
+            "idg_api_key": "Basic aWRnX3Byb2Rfb3BzX21idWxsaXM6Nnh5Mm5qZzV1cWRuazhrbmw4NjNzbGVxcXZzZzczMTJyZzFtemVsNg=="
+            },
+        "idg_app": {
+            "idg_app_api_key": "Basic bWF0dGhldy5idWxsaXNAYXVyYS5jb206TGlhbTIwMjEkJA=="
+            },
+        "suite": {
+            "admin_userName": "matthew.bullis@aura.com",
+            "admin_pass": "Liam2021$$"
+            }
+
+        }     
+    }
